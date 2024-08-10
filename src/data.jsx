@@ -84,7 +84,7 @@ let courses = {
       totalViews: "21808",
     },
     {
-      img: "https://www.guvi.in/blog/wp-content/uploads/2021/05/react-600x314.jpg",
+      img: "../FSD/how-long-it-would-it-take-to-learn-full-stack-development.jpg",
       title: "How Long Would It Take to Be a Full Stack Developer?",
       author: "Meghana D",
       date: "26 Mar, 2024",
@@ -100,7 +100,7 @@ let courses = {
       totalViews: "18704",
     },
     {
-      img: "https://www.guvi.in/blog/wp-content/uploads/2023/02/DBMS1.png",
+      img: "../FSD/person-front-computer-working-html.jpg",
       title: "10 Best Database Management Systems For Software Developers",
       author: "Isha Sharma",
       date: "22 Mar, 2024",
