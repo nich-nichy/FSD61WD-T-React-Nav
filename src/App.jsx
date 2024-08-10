@@ -1,10 +1,10 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
-import FSD from "./components/individual-pages/FSD";
-import DS from "./components/individual-pages/DS";
-import CBS from "./components/individual-pages/CBS";
-import Career from "./components/individual-pages/Career";
+import FSD from "./components/Fsd";
+import DS from "./components/Ds";
+import CBS from "./components/Cbs";
+import Career from "./components/Career";
 
 function App() {
   return (
