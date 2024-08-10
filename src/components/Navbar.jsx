@@ -16,14 +16,18 @@ function Navbar() {
     };
 
     useEffect(() => {
-        handleLinkClick(courseType)
+        if (!courseType) {
+            handleLinkClick("/");
+        } else {
+            handleLinkClick(courseType)
+        }
     }, [courseType])
 
     return (
         <nav id="master_head" className="navbar bg-body-tertiary navbar-expand-lg site-header">
             <Link
                 to="/"
-                className={activeLink === "/home" ? "active" : ""}
+                className={activeLink === "/" ? "active" : ""}
                 onClick={() => handleLinkClick("/")}
             >
                 All
