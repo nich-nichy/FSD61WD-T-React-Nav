@@ -8,7 +8,7 @@ function Card({ img, title, author, date, totalMinutes, totalViews }) {
                 <div className="post-card trending-card" style={{ width: "18rem" }}>
                     <div className="card border-0 shadow-sm position-relative">
                         <a href={img} className="card-img-top" previewlistener="true">
-                            <img width="895" height="347" src={img} className="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt={img} decoding="async" srcset={img} sizes="(max-width: 895px) 100vw, 895px" />
+                            <img width="895" height="347" src={img} className="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt={img} decoding="async" srcSet={img} sizes="(max-width: 895px) 100vw, 895px" />
                         </a>
                         <div className="card-body   " id="card-details">
                             <p className="card-title text-decoration-none text-dark fs-5 fw-semibold" previewlistener="true">{title}</p>

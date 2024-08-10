@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Link, useSearchParams } from "react-router-dom";
 import '../App.css';
 
@@ -11,9 +11,13 @@ function Navbar() {
         if (path === "/" || courseType?.length === 0) {
             setActiveLink("/");
         } else {
-            setActiveLink(courseType);
+            setActiveLink(`/course/${courseType}?course=${courseType}`);
         }
     };
+
+    useEffect(() => {
+        handleLinkClick(courseType)
+    }, [courseType])
 
     return (
         <nav id="master_head" className="navbar bg-body-tertiary navbar-expand-lg site-header">
@@ -26,28 +30,28 @@ function Navbar() {
             </Link>
             <Link
                 to="/course/fsd?course=fsd"
-                className={activeLink === "/fsd" ? "active" : ""}
+                className={activeLink === "/course/fsd?course=fsd" ? "active" : ""}
                 onClick={() => handleLinkClick("/fsd")}
             >
                 FULL STACK DEVELOPMENT
             </Link>
             <Link
                 to="/course/ds?course=ds"
-                className={activeLink === "/ds" ? "active" : ""}
+                className={activeLink === "/course/ds?course=ds" ? "active" : ""}
                 onClick={() => handleLinkClick("/ds")}
             >
                 DATA SCIENCE
             </Link>
             <Link
                 to="/course/cbs?course=cbs"
-                className={activeLink === "/cbs" ? "active" : ""}
+                className={activeLink === "/course/cbs?course=cbs" ? "active" : ""}
                 onClick={() => handleLinkClick("/cbs")}
             >
                 CYBER SECURITY
             </Link>
             <Link
                 to="/course/career?course=career"
-                className={activeLink === "/career" ? "active" : ""}
+                className={activeLink === "/course/career?course=career" ? "active" : ""}
                 onClick={() => handleLinkClick("/career")}
             >
                 CAREER
