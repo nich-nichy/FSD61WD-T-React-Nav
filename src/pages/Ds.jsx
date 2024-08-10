@@ -1,9 +1,7 @@
-import { useState } from 'react'
 import Card from '../components/Card';
 import courses from '../data';
 
 function DS() {
-    console.log(courses.ds);
     return (
         <>
             <div className="row d-flex">

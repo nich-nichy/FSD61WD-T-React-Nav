@@ -1,7 +1,7 @@
 let courses = {
   home: [
     {
-      img: "https://www.guvi.in/blog/wp-content/uploads/2023/04/feature.webp",
+      img: "../Home/blog-2-600x314.jpg",
       title: "40 Java Interview Questions for Freshers with Clear & Concise Answers",
       author: "Tushar Vinocha",
       date: "09 Aug, 2024",
@@ -9,7 +9,7 @@ let courses = {
       totalViews: "192913",
     },
     {
-      img: "https://www.guvi.in/blog/wp-content/uploads/2015/02/blog-2-600x314.png",
+      img: "../Home/feature-image-unique-project-ideas.jpg",
       title: "Top 30 Mini Project Ideas For College Students [UPDATED]",
       author: "Srinithi Sankar",
       date: "09 Aug, 2024",
@@ -17,7 +17,7 @@ let courses = {
       totalViews: "138109",
     },
     {
-      img: "https://www.guvi.in/blog/wp-content/uploads/2022/12/Render-array-of-objects-in-ReactJs-1536x864.png",
+      img: "../Home/feature.jpg",
       title: "How to Render an Array of Objects in React? [in 3 easy steps]",
       author: "Tarun Singh",
       date: "06 Aug, 2024",
@@ -25,7 +25,7 @@ let courses = {
       totalViews: "107552",
     },
     {
-      img: "https://www.guvi.in/blog/wp-content/uploads/2023/06/feature-image-unique-project-ideas.jpg",
+      img: "../Home/Render-array-of-objects-in-ReactJs-1536x864.jpg",
       title: "Top 10 Unique Project Ideas for College Students",
       author: "Lukesh S",
       date: "23 Jul, 2024",
@@ -33,15 +33,7 @@ let courses = {
       totalViews: "98359",
     },
     {
-      img: "https://www.guvi.in/blog/wp-content/uploads/2023/02/animated-javascript-project-image.jpg",
-      title: "30 Best JavaScript Project Ideas For You [3 Bonus Portfolio Projects]",
-      author: "Saakshi Priyadarshini",
-      date: "23 Jul, 2024",
-      totalMinutes: "8",
-      totalViews: "71356",
-    },
-    {
-      img: "https://www.guvi.in/blog/wp-content/uploads/2023/04/image-18.png",
+      img: "https://www.guvi.in/blog/wp-content/uploads/2023/03/Feature-Image-Power-BI-Developer-Career-Skills-Role-Salary-Scope.webp",
       title: "Crack the TCS IPA Exam: Top Questions and Exclusive Tips for Success!",
       author: "Jaishree Tomar",
       date: "23 Jul, 2024",
@@ -49,33 +41,42 @@ let courses = {
       totalViews: "41067",
     },
     {
-      img: "https://www.guvi.in/blog/wp-content/uploads/2023/04/feature.webp",
-      title: "40 Java Interview Questions for Freshers with Clear & Concise Answers",
-      author: "Tushar Vinocha",
-      date: "09 Aug, 2024",
-      totalMinutes: "5",
-      totalViews: "192913",
-    },
-    {
-      img: "https://www.guvi.in/blog/wp-content/uploads/2015/02/blog-2-600x314.png",
+      img: "../Home/feature-image-unique-project-ideas.jpg",
       title: "Top 30 Mini Project Ideas For College Students [UPDATED]",
       author: "Srinithi Sankar",
       date: "09 Aug, 2024",
       totalMinutes: "6",
       totalViews: "138109",
     },
+
     {
-      img: "https://www.guvi.in/blog/wp-content/uploads/2022/12/Render-array-of-objects-in-ReactJs-1536x864.png",
+      img: "https://www.guvi.in/blog/wp-content/uploads/2023/07/Real-World-Data-Science-Examples-1536x804.webp",
+      title: "12 Real-World Data Science Examples: Power Of Data Science",
+      author: "Tushar Vinocha",
+      date: "09 Aug, 2024",
+      totalMinutes: "5",
+      totalViews: "192913",
+    },
+    {
+      img: "../Home/feature.jpg",
       title: "How to Render an Array of Objects in React? [in 3 easy steps]",
       author: "Tarun Singh",
       date: "06 Aug, 2024",
       totalMinutes: "7",
       totalViews: "107552",
     },
+    {
+      img: "../Home/Render-array-of-objects-in-ReactJs-1536x864.jpg",
+      title: "30 Best JavaScript Project Ideas For You [3 Bonus Portfolio Projects]",
+      author: "Saakshi Priyadarshini",
+      date: "23 Jul, 2024",
+      totalMinutes: "8",
+      totalViews: "71356",
+    },
   ],
   fsd: [
     {
-      img: "https://www.guvi.in/blog/wp-content/uploads/2023/07/person-front-computer-working-html.jpg",
+      img: "../FSD/Feature-3.jpg",
       title: "Best Full-Stack Development Project Ideas in 2024",
       author: "Isha Sharma",
       date: "06 Aug, 2024",
@@ -83,7 +84,7 @@ let courses = {
       totalViews: "21808",
     },
     {
-      img: "https://www.guvi.in/blog/wp-content/uploads/2023/07/how-long-it-would-it-take-to-learn-full-stack-development_-1536x804.webp",
+      img: "https://www.guvi.in/blog/wp-content/uploads/2021/05/react-600x314.jpg",
       title: "How Long Would It Take to Be a Full Stack Developer?",
       author: "Meghana D",
       date: "26 Mar, 2024",
@@ -91,7 +92,7 @@ let courses = {
       totalViews: "18770",
     },
     {
-      img: "https://www.guvi.in/blog/wp-content/uploads/2024/03/Feature-3.webp",
+      img: "../FSD/person-front-computer-working-html.jpg",
       title: "7 Unique Web Development Project Ideas for Beginners",
       author: "Lukesh S",
       date: "02 Apr, 2024",
@@ -107,7 +108,7 @@ let courses = {
       totalViews: "14902",
     },
     {
-      img: "https://www.guvi.in/blog/wp-content/uploads/2023/07/person-front-computer-working-html.jpg",
+      img: "../FSD/Feature-3.jpg",
       title: "Best Full-Stack Development Project Ideas in 2024",
       author: "Isha Sharma",
       date: "06 Aug, 2024",
@@ -115,7 +116,7 @@ let courses = {
       totalViews: "21808",
     },
     {
-      img: "https://www.guvi.in/blog/wp-content/uploads/2023/07/how-long-it-would-it-take-to-learn-full-stack-development_-1536x804.webp",
+      img: "../FSD/how-long-it-would-it-take-to-learn-full-stack-development.jpg",
       title: "How Long Would It Take to Be a Full Stack Developer?",
       author: "Meghana D",
       date: "26 Mar, 2024",
@@ -123,7 +124,7 @@ let courses = {
       totalViews: "18770",
     },
     {
-      img: "https://www.guvi.in/blog/wp-content/uploads/2023/07/html-css-collage-concept-with-person.jpg",
+      img: "https://www.guvi.in/blog/wp-content/uploads/2021/05/react-600x314.jpg",
       title: "Best Full-Stack Development Project Ideas in 2024",
       author: "Isha Sharma",
       date: "06 Aug, 2024",
@@ -131,7 +132,7 @@ let courses = {
       totalViews: "21808",
     },
     {
-      img: "https://www.guvi.in/blog/wp-content/uploads/2023/07/how-long-it-would-it-take-to-learn-full-stack-development_-1536x804.webp",
+      img: "../FSD/how-long-it-would-it-take-to-learn-full-stack-development.jpg",
       title: "How Long Would It Take to Be a Full Stack Developer?",
       author: "Meghana D",
       date: "26 Mar, 2024",
@@ -139,7 +140,7 @@ let courses = {
       totalViews: "18770",
     },
     {
-      img: "https://www.guvi.in/blog/wp-content/uploads/2024/03/Feature-3.webp",
+      img: "../FSD/person-front-computer-working-html.jpg",
       title: "7 Unique Web Development Project Ideas for Beginners",
       author: "Lukesh S",
       date: "02 Apr, 2024",
@@ -149,7 +150,7 @@ let courses = {
   ],
   ds: [
     {
-      img: "https://www.guvi.in/blog/wp-content/uploads/2023/11/Feature-image-Top-High-Paying-Non-Coding-Jobs-in-Data-Science.webp",
+      img: "../DS/5.jpg",
       title: "Top 10 High Paying Non-Coding Jobs in Data Science in 2024",
       author: "Isha Sharma",
       date: "23 Jul, 2024",
@@ -157,7 +158,7 @@ let courses = {
       totalViews: "18088",
     },
     {
-      img: "https://www.guvi.in/blog/wp-content/uploads/2023/07/Real-World-Data-Science-Examples-1536x804.webp",
+      img: "../DS/Feature-image-Top-High-Paying-Non-Coding-Jobs-in-Data-Science.jpg",
       title: "12 Real-World Data Science Examples: Power Of Data Science",
       author: "Lukesh S",
       date: "25 Mar, 2024",
@@ -165,7 +166,7 @@ let courses = {
       totalViews: "10638",
     },
     {
-      img: "https://www.guvi.in/blog/wp-content/uploads/2022/06/5.-data-science-1536x804.png",
+      img: "../DS/image-4-1536x866.jpg",
       title: "Can A Commerce Student Do Data Science?",
       author: "Saakshi Priyadarshini",
       date: "16 Apr, 2024",
@@ -173,7 +174,7 @@ let courses = {
       totalViews: "9594",
     },
     {
-      img: "https://www.guvi.in/blog/wp-content/uploads/2023/07/image-4-1536x866.png",
+      img: "../DS/Real-World-Data-Science-Examples-1536x804.jpg",
       title: "Roles and Responsibilities of a Data Scientist",
       author: "Jaishree Tomar",
       date: "16 Apr, 2024",
@@ -189,7 +190,7 @@ let courses = {
       totalViews: "6965",
     },
     {
-      img: "https://www.guvi.in/blog/wp-content/uploads/2023/11/Feature-image-Top-High-Paying-Non-Coding-Jobs-in-Data-Science.webp",
+      img: "../DS/5.jpg",
       title: "Top 10 High Paying Non-Coding Jobs in Data Science in 2024",
       author: "Isha Sharma",
       date: "23 Jul, 2024",
@@ -197,7 +198,7 @@ let courses = {
       totalViews: "18088",
     },
     {
-      img: "https://www.guvi.in/blog/wp-content/uploads/2023/07/Real-World-Data-Science-Examples-1536x804.webp",
+      img: "../DS/Feature-image-Top-High-Paying-Non-Coding-Jobs-in-Data-Science.jpg",
       title: "12 Real-World Data Science Examples: Power Of Data Science",
       author: "Lukesh S",
       date: "25 Mar, 2024",
@@ -205,7 +206,7 @@ let courses = {
       totalViews: "10638",
     },
     {
-      img: "https://www.guvi.in/blog/wp-content/uploads/2022/06/5.-data-science-1536x804.png",
+      img: "../DS/image-4-1536x866.jpg",
       title: "Can A Commerce Student Do Data Science?",
       author: "Saakshi Priyadarshini",
       date: "16 Apr, 2024",
@@ -213,7 +214,7 @@ let courses = {
       totalViews: "9594",
     },
     {
-      img: "https://www.guvi.in/blog/wp-content/uploads/2023/07/image-4-1536x866.png",
+      img: "../DS/Real-World-Data-Science-Examples-1536x804.jpg",
       title: "Roles and Responsibilities of a Data Scientist",
       author: "Jaishree Tomar",
       date: "16 Apr, 2024",
@@ -223,7 +224,7 @@ let courses = {
   ],
   cbs: [
     {
-      img: "https://www.guvi.in/blog/wp-content/uploads/2023/12/Feature-image-Non-Coding-Jobs-in-Cybersecurity.webp",
+      img: "../CBS/Feature-image-Non-Coding-Jobs-in-Cybersecurity.jpg",
       title: "Non-Coding Jobs in Cybersecurity: A Comprehensive Guide",
       author: "Jaishree Tomar",
       date: "26 Mar, 2024",
@@ -231,7 +232,7 @@ let courses = {
       totalViews: "6668",
     },
     {
-      img: "https://www.guvi.in/blog/wp-content/uploads/2022/12/Yellow-Blue-Illustration-Business-Blog-Banner-1536x864.png",
+      img: "../CBS/Feature-image-What-Is-Hacking.jpg",
       title: "Cybersecurity Vs Ethical Hacking: Top 10 Differences",
       author: "Tushar Vinocha",
       date: "16 Apr, 2024",
@@ -239,7 +240,7 @@ let courses = {
       totalViews: "6648",
     },
     {
-      img: "https://www.guvi.in/blog/wp-content/uploads/2023/09/Feature-image-What-Is-Hacking_-Types-of-Hacking-More.webp",
+      img: "../CBS/Yellow-Blue-Illustration-Business-Blog-Banner-1536x864.jpg",
       title: "What Is Hacking? Types of Hacking & More",
       author: "Meghana D",
       date: "25 Mar, 2024",
@@ -247,7 +248,7 @@ let courses = {
       totalViews: "4107",
     },
     {
-      img: "https://www.guvi.in/blog/wp-content/uploads/2022/12/cybersecuity-.gif",
+      img: "data:image/jpeg;base64,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",
       title: "What is Cybersecurity? Importance and its uses & the growing challenges in 2023!",
       author: "Tushar Vinocha",
       date: "04 Oct, 2023",
@@ -255,7 +256,7 @@ let courses = {
       totalViews: "2157",
     },
     {
-      img: "https://www.guvi.in/blog/wp-content/uploads/2023/12/Feature-image-Non-Coding-Jobs-in-Cybersecurity.webp",
+      img: "../CBS/Feature-image-Non-Coding-Jobs-in-Cybersecurity.jpg",
       title: "Non-Coding Jobs in Cybersecurity: A Comprehensive Guide",
       author: "Jaishree Tomar",
       date: "26 Mar, 2024",
@@ -263,7 +264,7 @@ let courses = {
       totalViews: "6668",
     },
     {
-      img: "https://www.guvi.in/blog/wp-content/uploads/2022/12/Yellow-Blue-Illustration-Business-Blog-Banner-1536x864.png",
+      img: "../CBS/Feature-image-What-Is-Hacking.jpg",
       title: "Cybersecurity Vs Ethical Hacking: Top 10 Differences",
       author: "Tushar Vinocha",
       date: "16 Apr, 2024",
@@ -271,7 +272,7 @@ let courses = {
       totalViews: "6648",
     },
     {
-      img: "https://www.guvi.in/blog/wp-content/uploads/2023/09/Feature-image-What-Is-Hacking_-Types-of-Hacking-More.webp",
+      img: "../CBS/Yellow-Blue-Illustration-Business-Blog-Banner-1536x864.jpg",
       title: "What Is Hacking? Types of Hacking & More",
       author: "Meghana D",
       date: "25 Mar, 2024",
@@ -279,7 +280,7 @@ let courses = {
       totalViews: "4107",
     },
     {
-      img: "https://www.guvi.in/blog/wp-content/uploads/2022/12/cybersecuity-.gif",
+      img: "data:image/jpeg;base64,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",
       title: "What is Cybersecurity? Importance and its uses & the growing challenges in 2023!",
       author: "Tushar Vinocha",
       date: "04 Oct, 2023",
@@ -287,7 +288,7 @@ let courses = {
       totalViews: "2157",
     },
     {
-      img: "https://www.guvi.in/blog/wp-content/uploads/2023/12/Feature-image-Non-Coding-Jobs-in-Cybersecurity.webp",
+      img: "../CBS/Feature-image-Non-Coding-Jobs-in-Cybersecurity.jpg",
       title: "Non-Coding Jobs in Cybersecurity: A Comprehensive Guide",
       author: "Jaishree Tomar",
       date: "26 Mar, 2024",
@@ -297,7 +298,7 @@ let courses = {
   ],
   career: [
     {
-      img: "https://www.guvi.in/blog/wp-content/uploads/2024/08/Careers-in-Data-Science.webp",
+      img: "../Career/Careers-in-Data-Science.jpg",
       title: "Top 10 Data Science Job Profiles (Careers in Data Science)",
       author: "Lukesh S",
       date: "06 Aug, 2024",
@@ -305,7 +306,7 @@ let courses = {
       totalViews: "Latest",
     },
     {
-      img: "https://www.guvi.in/blog/wp-content/uploads/2024/08/devops_vs_data_science_which_career_is_best_.webp",
+      img: "../Career/devops_vs_data_science_which_career_is_best_.jpg",
       title: "DevOps vs Data Science: Which Career is Best?",
       author: "Lukesh S",
       date: "03 Aug, 2024",
@@ -313,7 +314,7 @@ let courses = {
       totalViews: "Latest",
     },
     {
-      img: "https://www.guvi.in/blog/wp-content/uploads/2023/03/Feature-Image-Power-BI-Developer-Career-Skills-Role-Salary-Scope.webp",
+      img: "../Career/Feature-Image-Power-BI-Developer-Career-Skills-Role-Salary-Scope.jpg",
       title: "Power BI Developer 2024: Career, Skills, Role, Salary, Scope",
       author: "Saakshi Priyadarshini",
       date: "29 Jul, 2024",
@@ -321,7 +322,7 @@ let courses = {
       totalViews: "Latest",
     },
     {
-      img: "https://www.guvi.in/blog/wp-content/uploads/2020/12/tumbnail-img-2-1536x774.jpg",
+      img: "../Career/Careers-in-Data-Science.jpg",
       title: "MEAN vs MERN: Career Growth & Salary",
       author: "admin",
       date: "29 Jul, 2024",
@@ -329,7 +330,7 @@ let courses = {
       totalViews: "Latest",
     },
     {
-      img: "https://www.guvi.in/blog/wp-content/uploads/2024/08/Careers-in-Data-Science.webp",
+      img: "../Career/devops_vs_data_science_which_career_is_best_.jpg",
       title: "Top 10 Data Science Job Profiles (Careers in Data Science)",
       author: "Lukesh S",
       date: "06 Aug, 2024",
@@ -337,7 +338,7 @@ let courses = {
       totalViews: "Latest",
     },
     {
-      img: "https://www.guvi.in/blog/wp-content/uploads/2024/08/devops_vs_data_science_which_career_is_best_.webp",
+      img: "../Career/Feature-Image-Power-BI-Developer-Career-Skills-Role-Salary-Scope.jpg",
       title: "DevOps vs Data Science: Which Career is Best?",
       author: "Lukesh S",
       date: "03 Aug, 2024",
@@ -345,15 +346,7 @@ let courses = {
       totalViews: "Latest",
     },
     {
-      img: "https://www.guvi.in/blog/wp-content/uploads/2023/03/Feature-Image-Power-BI-Developer-Career-Skills-Role-Salary-Scope.webp",
-      title: "Power BI Developer 2024: Career, Skills, Role, Salary, Scope",
-      author: "Saakshi Priyadarshini",
-      date: "29 Jul, 2024",
-      totalMinutes: "5",
-      totalViews: "Latest",
-    },
-    {
-      img: "https://www.guvi.in/blog/wp-content/uploads/2020/12/tumbnail-img-2-1536x774.jpg",
+      img: "../Career/Careers-in-Data-Science.jpg",
       title: "MEAN vs MERN: Career Growth & Salary",
       author: "admin",
       date: "29 Jul, 2024",
@@ -361,7 +354,15 @@ let courses = {
       totalViews: "Latest",
     },
     {
-      img: "https://www.guvi.in/blog/wp-content/uploads/2024/08/devops_vs_data_science_which_career_is_best_.webp",
+      img: "../Career/devops_vs_data_science_which_career_is_best_.jpg",
+      title: "Top 10 Data Science Job Profiles (Careers in Data Science)",
+      author: "Lukesh S",
+      date: "06 Aug, 2024",
+      totalMinutes: "7",
+      totalViews: "Latest",
+    },
+    {
+      img: "../Career/Feature-Image-Power-BI-Developer-Career-Skills-Role-Salary-Scope.jpg",
       title: "DevOps vs Data Science: Which Career is Best?",
       author: "Lukesh S",
       date: "03 Aug, 2024",
