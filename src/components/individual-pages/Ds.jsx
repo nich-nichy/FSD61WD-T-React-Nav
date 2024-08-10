@@ -1,11 +1,11 @@
-import Card from '../components/Card';
-import courses from '../data';
+import Card from '../Card';
+import courses from '../../data';
 
-function CBS() {
+function DS() {
     return (
         <>
             <div className="row d-flex">
-                {courses.cbs.map((course, n) => {
+                {courses.ds.map((course, n) => {
                     return <Card key={n} img={course.img} title={course.title} author={course.author} date={course.date} totalMinutes={course.totalMinutes} totalViews={course.totalViews} />
                 })}
             </div>
@@ -14,4 +14,4 @@ function CBS() {
     )
 }
 
-export default CBS
+export default DS

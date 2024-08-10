@@ -1,5 +1,5 @@
-import Card from '../components/Card';
-import courses from '../data';
+import Card from '../Card';
+import courses from '../../data';
 
 function Career() {
     return (
