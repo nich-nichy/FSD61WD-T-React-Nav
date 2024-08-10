@@ -1,7 +1,7 @@
-import Card from '../Card';
-import courses from '../../data';
+import Card from './Card';
+import courses from '../data';
 
-function CBS() {
+function Cbs() {
     return (
         <>
             <div className="row d-flex">
@@ -14,4 +14,4 @@ function CBS() {
     )
 }
 
-export default CBS
+export default Cbs

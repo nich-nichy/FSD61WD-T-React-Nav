@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import FSD from "./components/Fsd";
 import DS from "./components/Ds";
-import CBS from "./components/Cbs";
+import Cbs from "./components/Cbs";
 import Career from "./components/Career";
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/course/fsd" element={<FSD />} />
         <Route path="/course/ds" element={<DS />} />
-        <Route path="/course/cbs" element={<CBS />} />
+        <Route path="/course/cbs" element={<Cbs />} />
         <Route path="/course/career" element={<Career />} />
       </Routes>
     </BrowserRouter>
